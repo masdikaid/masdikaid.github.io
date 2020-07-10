@@ -4,11 +4,79 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* header */
+
+
+
 header {
     height: 50px;
-    background-color: red;
+    position: absolute;
+    width: 100%;
+    color: white;
 }
 
 .ul-header {
-    list-style: circle;
+    display: flex;
+    float: right;
+    margin-right: 30px;
+    list-style: none;
 }
+
+.li-header {
+    margin: 5px 20px;
+    padding: 20px 5px;
+    font-weight: 400;
+}
+
+
+
+/* jumbotron */
+
+.jumbotron {
+    background-image: url(/src/assets/banner.png);
+    background-position: top right;
+    background-size: 70% auto;
+    background-repeat: no-repeat;
+    height: 850px;
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-between;
+}
+
+.tron-slogan {
+    width: 25%;
+    font-weight: 900;
+    color: #734AFF;
+    margin: 50px;
+    padding: 80px 20px;
+}
+
+.tron-slogan h2 {
+    font-size: 50px;
+}
+
+.tron-slogan h1 {
+    font-size: 70px;
+}
+
+.slogan-button {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    background-color: #734AFF;
+    padding: 10px 20px;
+    box-shadow: 0px 7px 0px #3300E2;
+    align-self: center;
+    margin: 40px auto;
+    width:50%;
+    text-align: center;
+    display: block;
+}
+
+.tron-photo {
+    margin: 20px;
+}
+
+
+
+
